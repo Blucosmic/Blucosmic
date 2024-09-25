@@ -2,8 +2,8 @@
 - 👀 I’m interested in Space
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on Coding
-- 📫 How to reach me jparison8@gmail.com
-- 😄 Pronouns: she/her
+- 📫 How to reach me literal.panda@yahoo.com
+- 😄 Pronouns: Panda/Pandas
 - ⚡ Fun fact: All of my interests overlap with aero engineering.
 
 <!---
