@@ -1,11 +1,15 @@
 {
-  "ModEnabled": true,
-  "StrikeAnywhere": false,
-  "MinimumMeteorites": 1,
-  "MaximumMeteorites": 5,
-  "MeteoritesDestroyedPerObject": 1,
-  "DefenceSound": "debuffSpell",
-  "DestructionSound": "explosion",
-  "ImpactSound": "aedenthorn.MeteorDefence_meteoriteImpact",
-  "SkillsRequired": "Mining 6"
+  "Shadow Stat Changes": "true",
+  "Pacifist Mode": "false",
+  "Golem Eradication Substitute": "false",
+  "Event Cooldown Length": "3",
+  "Schedule Type": "Dynamic",
+  "Romantic Nickname": "Starshine",
+  "Portrait Style": "7thAxis",
+  "Reshade Existing Shadows": "false",
+  "Spouse Room": "true",
+  "Have Shadow Kids": "true",
+  "Female Toddler Design": "Freya",
+  "Male Toddler Design": "Loki",
+  "UCT Portrait Compatibility": "true"
 }

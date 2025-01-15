@@ -1,17 +1,17 @@
-﻿{
-	"Name": "Mail Framework Mod",
-	"Author": "Digus",
-	"Version": "1.18.0",
-	"MinimumApiVersion": "4.0.0",
-	"Description": "Utility classes to send mail in the game.",
-	"UniqueID": "DIGUS.MailFrameworkMod",
-	"EntryDll": "MailFrameworkMod.dll",
+{
+	"Name": "Lurking in the Dark",
+	"Author": "7thAxis",
+	"Version": "3.0.2",
+	"Description": "Adds a new shadow guy NPC for East Scarp.",
+	"UniqueID": "7thAxis.LitD.CP",
+	"UpdateKeys": ["Nexus:10770"],
+	"MinimumApiVersion": "2.11.1",
+	"MinimumGameVersion": "1.6",
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"Dependencies": [
 		{
-			"UniqueID": "Cherry.ExpandedPreconditionsUtility",
-			"MinimumVersion": "1.0.1",
-			"IsRequired": false
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"IsRequired": true
 		}
-	],
-	"UpdateKeys": [ "Nexus:1536" ]
+	]
 }
