@@ -1,0 +1,8 @@
+{
+  "AllowHorsebackTravel": true,
+  "SkipTravelAnimations": false,
+  "PreviousPageButtonPosition": "Top",
+  "NextPageButtonPosition": "Bottom",
+  "NumberOfDestinationsPerPage": 4,
+  "AllowObjectDestruction": true
+}
