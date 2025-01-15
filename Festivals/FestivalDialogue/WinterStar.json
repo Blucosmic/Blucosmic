@@ -1,0 +1,27 @@
+{
+//Feast of the Winter Star
+//Dialogue
+
+	"Changes": [
+    
+        //FirstChild Feast of the Winter Star Dialogue
+        {
+            "LogName": "FirstChild Feast of the Winter Star Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "I really like the Feast of the Winter Star Festival because there is delicious food, the decorations are beautiful, and most importantly...$0#$b#...Is that I will get a gift!$h"
+            }
+        },
+        //SecondChild Feast of the Winter Star Dialogue
+        {
+            "LogName": "SecondChild Feast of the Winter Star Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "Daddy! Look at the pile of presents under the tree. There are so many!$h^Mommy! Look at the pile of presents under the tree. There are so many!$h#$b#Which box is a present for me?!$h"
+            }
+        }
+
+	]
+}

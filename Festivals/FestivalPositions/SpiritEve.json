@@ -1,0 +1,25 @@
+{
+    //SpiritEve
+    //Position
+    "Changes": [
+        {
+            "LogName": "Child's Spirit's Eve",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries","Set-Up_additionalCharacters"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 23 28 2/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 23 29 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 21 22 right/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 22 22 left",
+                    "Delimiter": "/"
+                }
+            ]
+        }
+    ]
+}

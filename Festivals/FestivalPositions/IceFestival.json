@@ -1,0 +1,31 @@
+{
+    //Festival of Ice
+    //Position
+    "Changes": [
+        {
+            "LogName": "Child Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 87 30 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 86 30 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 70 25 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 69 25 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 77 40 up/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 78 39 left",
+                    "Delimiter": "/"
+                }
+            ]
+        }
+    ]
+}

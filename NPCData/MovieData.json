@@ -1,0 +1,234 @@
+{
+    "Changes": [
+        //Tastes
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
+                    "Name": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+                    "LovedTags": [
+                        "Cotton Candy",
+                        "Ice Cream Sandwich"
+                    ],
+                    "LikedTags": [
+                        "Sweet"
+                    ],
+                    "DislikedTags": [
+                        "Kale Smoothie",
+                        "Black Licorice"
+                    ]
+                },
+                "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {
+                    "Name": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+                    "LovedTags": [
+                        "Cotton Candy",
+                        "Ice Cream Sandwich"
+                    ],
+                    "LikedTags": [
+                        "Sweet"
+                    ],
+                    "DislikedTags": [
+                        "Kale Smoothie",
+                        "Black Licorice"
+                    ]
+                }
+            }
+        },
+        //Reactions FirstChild
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}": {
+                    "NPCName": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+                    "Reactions": [
+                        {
+                            "Tag": "horror",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Is this movie really scary? I don't really like horror movies... they make me scared...$3"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 3000",
+                                    "Text": "Can I cover my eyes? It feels really scary... I don't want to watch anymore...$2"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I don't want to watch scary movies anymore. They give me bad dreams. Next time, can we watch something else?$2"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "comedy",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "What movie are we watching today? I'm so excited! Is it going to be a funny one that'll make me laugh a lot?"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Haha, that was so much fun and really funny!$1"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Wow! This movie is so much fun! I've never laughed like this before. Thanks for bringing me to see this comedy!$1"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I'm so excited! I can't wait to see what amazing things the characters will do!$1"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Wow! This scene is so awesome!$1"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Thanks for bringing me to the movies! We definitely have to come back again!$1"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "*",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "They have a claw machine here too! I want to try playing it!$1"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Thanks for inviting me to watch the movie!$1"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        }
+                    ]
+                },
+
+                //Reactions SecondChild
+                "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}": {
+                    "NPCName": "{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+                    "Reactions": [
+                        {
+                            "Tag": "horror",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I don't really want to watch horror movies... they're just too scary.$3"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 3000",
+                                    "Text": "I’m really scared! There are creepy sounds and scenes that make my heart race!$2"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I'm feeling really scared. Next time, can we watch something else? I don't want to watch this anymore.$2"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "comedy",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Do we have snacks ready? I don't want to miss eating snacks while watching the movie!"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Haha! I'm laughing so much right now! Look at this scene!$1"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I'm laughing so hard my stomach hurts! This movie is so much fun!$1"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I don’t want to miss eating snacks while watching the movie!$5"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Wow! Look at this! This is so cool! I don't want to look away!$1"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Thanks for inviting me to watch the movie! Love you!$้h"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "*",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "There’s a bird in here! What kind of bird is that?"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Thanks for inviting me to watch the movie!$้1"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

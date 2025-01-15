@@ -1,0 +1,61 @@
+{
+  
+//Egg Festival
+//Position
+
+	"Changes": [
+		
+        {
+            "LogName": "Child's Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+              {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters"],
+                "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 18 64 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 19 63 down",
+                "Delimiter": "/"
+              },
+              {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters"],
+                "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 25 59 right/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 25 60 right",
+                "Delimiter": "/"
+              },
+              {
+                "Operation": "Append",
+                "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 22 76 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 32 76 down",
+                "Delimiter": "/"
+              },
+              {
+                "Operation": "Append",
+                "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+                "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 33 58 left/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 33 59 left",
+                "Delimiter": "/"
+              },
+              {
+                "Operation": "Append",
+                "Target": ["Fields","set-up",5],
+                "Value": "/advancedMove {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} true 2 0 0 2 -2 0 0 -2/advancedMove {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} true 2 4500 3 0 1 6000 -3 0"
+              },
+              {
+                "Operation": "Append",
+                "Target": ["Fields","mainEvent",5],
+                "Value": "/advancedMove {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false 1 3000/advancedMove {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} true 1 3000 0 1 1 3000 0 -1"
+              },
+              {
+                "Operation": "Append",
+                "Target": ["Fields","set-up_y2",5],
+                "Value": "/advancedMove {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} true 2 0 0 2 -2 0 0 -2/advancedMove {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} true 2 4500 4 0 0 1 2 5000 0 -1 -4 0"
+              },
+              {
+                "Operation": "Append",
+                "Target": ["Fields","mainEvent_y2",5],
+                "Value": "/advancedMove {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false 1 3000/advancedMove {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} true 1 3000 0 1 1 3000 0 -1"
+              }
+            ]
+          }
+          
+	]
+}

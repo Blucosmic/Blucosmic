@@ -1,0 +1,49 @@
+{
+  //Flower Festival
+  //Position
+  "Changes": [
+    {
+      "LogName": "Child's Flower Festival",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 5 32 1/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 4 29 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 4 25 right/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 4 26 right",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters_y2"
+          ],
+          "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 23 20 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 22 20 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters_y2"
+          ],
+          "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 22 30 0/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 21 30 0",
+          "Delimiter": "/"
+        }
+      ]
+    }
+  ]
+}

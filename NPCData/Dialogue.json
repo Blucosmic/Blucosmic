@@ -1,0 +1,197 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "FirstChild Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "assets/dialogue/dialogue1.json"
+		},
+
+		//SecondChild
+		//LoadBaseSecondChild
+		{
+			"LogName": "SecondChild Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "assets/dialogue/Dialogue2.json"
+		},
+
+
+		//EditDialogue
+		//FirstChild
+		{
+			"LogName": "FirstChild Dialogue 3 16",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"3_2": "Daddy, Tomorrow Miss Penny is going to teach me about {{Random:plants, grammar, the universe, the insect cycle, mathematics |Subject1}}.$0^Mommy, Tomorrow Miss Penny is going to teach me about {{Random:plants, grammar, the universe, the insect cycle, mathematics | Subject1}}.$0#$b#I think it's {{Random:interesting$h, maybe interesting$0}}.",
+				"16_2": "Daddy, Tomorrow Miss Penny is going to teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea |Subject2}}.$0^Mommy, Tomorrow is going to Penny will teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea | Subject2}}.$0#$b#I hope it's {{Random:fun$u, not difficult$0}}."
+			}
+		},
+		{
+			"LogName": "FirstChild Dialogue Mon",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"Mon": "Last night, I had a good dream.$0#$b#I went into the {{Random:Candy, Dessert, Chocolate, Marshmallow, Toy}} World!$h#$e#...$0"
+			},
+			"When": { "DayOfWeek": "Monday" }
+		},
+		{
+			"LogName": "FirstChild Dialogue Wed",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"Wed": "%How was school yesterday?#$b#{{Random:It was hard...$s, It was fun.$h, So so.$u, That's good$0.}}"
+			},
+			"When": { "DayOfWeek": "Wednesday" }
+		},
+		{
+			"LogName": "FirstChild Dialogue Thu",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"Thu": "Have you ever seen a {{Random:rainbow, ladybug, squirrel, frog, swarm of bees}}?$0#$b#I saw one yesterday.$0#$e#...$0"
+			},
+			"When": { "DayOfWeek": "Thursday" }
+		},
+		{
+			"LogName": "FirstChild Dialogue Fri",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"Fri": "I want {{Random:spaghetti, baked fish, crispy bass, hashbrowns, salmon dinner, sashimi}} for dinner tonight.$h"
+			},
+			"When": { "DayOfWeek": "Friday" }
+		},
+		{
+			"LogName": "FirstChild Dialogue Sun",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"Sun": "Do you know {{Random:Legendary Fish, Prismatic Shard, Galaxy Sword, Magma Cap}}?$u#$b#I want to see one.$0#$e#...$0"
+			},
+			"When": { "DayOfWeek": "Sunday" }
+		},
+		{
+			"LogName": "FirstChild Rainy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "I like the rain.$h#$b#{{Random:But I don't like strom.$u, Because the weather is cool.$0, We had a lot of heavy rain this morning.$0}}#$e#...$u"
+			},
+			"When": { "Weather": "Rain, Storm" }
+		},
+		{
+			"LogName": "FirstChild Dialogue Name",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"Tue": "Why did you name me like this?$u#$e#I don't know why, but I loved it.$h"
+			}
+		},
+		{
+			"LogName": "FirstChild Dialogue penny married",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"3_2": "Daddy, Tomorrow Mommy is going to teach me about {{Random:plants, grammar, the universe, the insect cycle, mathematics |Subject1}}.$0^Mommy, Tomorrow Mommy is going to teach me about {{Random:plants, grammar, the universe, the insect cycle, mathematics | Subject1}}.$0#$b#I think it's {{Random:interesting$h, maybe interesting$0}}.",
+				"16_2": "Daddy, Tomorrow Mommy is going to teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea |Subject2}}.$0^Mommy, Tomorrow Mommy is going to teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea | Subject2}}.$0#$b#I hope it's {{Random:fun$u, not difficult$0}}."
+			},
+			"When": { "Relationship:Penny": "Married" }
+		},
+		{
+			"LogName": "FirstChild Dialogue sam married",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"Entries": {
+				"SamHouse_3_5": "Grandma Jodi is very kind.$0#$b#Vincent looks a lot like her.$h"
+			},
+			"When": { "Relationship:Sam": "Married" }
+		},
+
+		//EditDialogue
+		//SecondChild
+		{
+			"LogName": "SecondChild Rainy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "{{Random:I don't like strom.$u, I’m really bored with all this rain.$u, I hope the weather will be good tomorrow because I want to play outside.$0}}#$e#...$0"
+			},
+			"When": { "Weather": "Rain, Storm" }
+		},
+		{
+			"LogName": "SecondChild Dialogue 3 16",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries": {
+				"3_2": "Daddy, Tomorrow Miss Penny is going to teach me about {{Random:plants, grammar, the universe, the insect Cycle, mathematics | Subject1}}.$0^Mommy, Tomorrow Miss Penny is going to teach me about {{Random:plants, grammar, the universe, the insect Cycle, mathematics |Subject1}}.$0#$b#...But I want to learn something else.$h#$e#...$0",
+				"16_2": "Daddy, Tomorrow Miss Penny is going to teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea | Subject2}}.$0^Mommy, Tomorrow Miss Penny is going to teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea |Subject2}}.$0#$b#I'm so {{Random:excited$h, worry$s, lazy$u, happy$h}}."
+			}
+		},
+		{
+			"LogName": "SecondChild Dialogue Mon",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries": {
+				"Mon": "Have you ever seen {{Random:butterfly, ladybug, heart-shaped cloud, frog, bear}}?$0#$b#I saw one yesterday.$h#$e#...$u"
+			},
+			"When": { "DayOfWeek": "Monday" }
+		},
+		{
+			"LogName": "SecondChild Dialogue Tue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries": {
+				"Tue": "I want {{Random:omelet, cheese cauliflower, carp surprise, fried calamari, ice cream, hashbrowns}} for dinner to night.$h"
+			},
+			"When": { "DayOfWeek": "Tuesday" }
+		},
+		{
+			"LogName": "SecondChild Dialogue Wed",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries": {
+				"Wed": "%What did you learn yesterday?#$b#{{Random:Hmm... I learned a few things but I can't remember all of them right now.$s, Uh.. I honestly don't remember what I learned haha.$h, It was tough but I think I learned something useful.$h, I learned something I really enjoyed actually!$h}}#$e#...$u"
+			},
+			"When": {
+				"DayOfWeek": "Wednesday"
+			}
+		},
+		{
+			"LogName": "SecondChild Dialogue Name",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries": {
+				"summer_1_2": "Today, Jas is going to get me some ice cream.$h#$b#Hope it's true.$0",
+				"Fri": "Why did you name me like this?$u#$b#I don't know why, but I loved it.$h",
+				"Sat": "Today we will play at the playground in the town.$h#$b#...But don't worry, Miss Penny will take care of us.$0",
+				"Town_45_57": "Hi, Daddy!$h^Hi, Mommy!$h#$b#Did you know that this Pierre shop has a lot of snacks for sale?$0"
+			}
+		},
+		{
+			"LogName": "SecondChild Dialogue penny married",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries": {
+				"3_2": "Daddy, Tomorrow Mommy is going to teach me about {{Random:plants, grammar, the universe, the insect Cycle, mathematics | Subject1}}.$0^Mommy, Tomorrow Mommy is going to teach me about {{Random:plants, grammar, the universe, the insect Cycle, mathematics |Subject1}}.$0#$b#...But I want to learn something else.$h#$e#...$0",
+				"16_2": "Daddy, Tomorrow Mommy is going to teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea | Subject2}}.$0^Mommy, Tomorrow Mommy is going to teach me about {{Random:animals, the body, colors and art, the water cycle, under the sea |Subject2}}.$0#$b#I'm so {{Random:excited$h, worry$s, lazy$u, happy$h}}.",
+				"Sat": "Today we will play at the playground in the town.$h#$b#...But don't worry, Mommy will take care of us.$0",
+				"Town_17_14": "Don't worry, Mommy taking care of us."
+			},
+			"When": { "Relationship:Penny": "Married" }
+		},
+		{
+			"LogName": "SecondChild Dialogue sam married",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"Entries": {
+				"SamHouse_2_5": "Granma Jodi invited us to eat here.$0#$b#...We agree and the food is very yummy!$h"
+			},
+			"When": { "Relationship:Sam": "Married" }
+		}
+
+	]
+}

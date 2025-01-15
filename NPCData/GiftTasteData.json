@@ -1,0 +1,21 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "FirstChildGiftTastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "Wow! How do you know? I love it!/107 184 206 220 221 223 233 373 394 434 575/Thanks! I like it!/88 350 376 424 440 591 -7 -2/...Huh?/-12 -15 -16 -8 -19 -22 -74 -28/No! I hate it..!!/-21 -20 -81/Thanks!/-14 -75 -79 -80 -2 -4 -5 -6 -25 -26 -27/"
+			}
+		},
+		{
+			"LogName": "SecondChildGiftTastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "Daddy! I love it!^Mommy! I love it!/107 184 206 220 221 223 233 373 394 434 575/Thanks! I like it!/88 350 376 424 440 591 -7 -2/...?/-12 -15 -16 -8 -19 -22 -74 -28/No.. I don't want it../-21 -20 -81/Thanks! Daddy.^Thanks! Mommy./-14 -75 -79 -80 -2 -4 -5 -6 -25 -26 -27/"
+			}
+		}
+	]
+}

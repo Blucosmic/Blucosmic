@@ -1,0 +1,27 @@
+{
+//Egg Festival
+//Dialogue
+
+	"Changes": [
+		
+        //FirstChild Flower Festival Dialogue
+        {
+            "LogName": "FirstChild Flower Festivall Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "Daddy, check out this song playing. It's so good!, you know?$0^Mommy, check out this song playing. It's so good!, you know?$0#$b#...Someday when I grow up, I'll go dance there sometime!$h"
+            }
+        },
+        //SecondChild Flower Festival Dialogue
+        {
+            "LogName": "SecondChild Flower Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "There are flowers everywhere!$h#$b#That's... Is it a lily?$h"
+            }
+		},
+        
+	]
+}

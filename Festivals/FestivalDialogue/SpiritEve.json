@@ -1,0 +1,27 @@
+{
+//Spirit's Eve
+//Dialogue
+		
+	"Changes": [
+		
+        //FirstChild Spirit's Eve Dialogue
+        {
+            "LogName": "FirstChild Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "Why is this path look like I walked past it last time?$u"
+            }
+        },
+        //SecondChild Spirit's Eve Dialogue
+        {
+            "LogName": "SecondChild Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "So, which path should we go next?$s"
+            }
+        }
+
+	]
+}

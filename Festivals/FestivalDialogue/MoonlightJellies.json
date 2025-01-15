@@ -1,0 +1,27 @@
+{
+//Dance of the Moonlight Jellies
+//Dialogue
+
+	"Changes": [
+       
+        //FirstChild Dance of the Moonlight Jellies Dialogue
+        {
+            "LogName": "FirstChild Dance of the Moonlight Jellies Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "Do you know? That jellyfish don't have bones, blood, brains, and hearts.$0#$b#I read that from a book in the library. Am I good at it?!$h"
+            }
+        },
+        //SecondChild Dance of the Moonlight Jellies Dialogue
+        {
+            "LogName": "SecondChild Dance of the Moonlight Jellies Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "Finally, I get to see those jellyfish!$h#$b#They must be very beautiful.$h"
+            }
+        }
+
+	]
+}

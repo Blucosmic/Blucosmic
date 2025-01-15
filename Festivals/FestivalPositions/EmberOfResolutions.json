@@ -1,0 +1,38 @@
+{
+//EmberofResolutions
+//Position
+
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries","Set-Up_additionalCharacters"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 30 39 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 31 39 down",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries","MainEvent_additionalCharacters"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 39 50 up/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 38 50 up",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries","Set-Up_additionalCharacters_y2"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 30 39 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 31 39 down",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries","MainEvent_additionalCharacters_y2"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 39 50 up/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 38 50 up",
+            "Delimiter": "/"
+          }
+          
+        ]
+      }
+    ]
+  }

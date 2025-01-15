@@ -1,0 +1,27 @@
+{
+//Egg Festival
+//Dialogue
+
+	"Changes": [
+
+        //FirstChild Egg Festival Dialogue
+        {
+            "LogName": "FirstChild Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "Who will be the winner of this egg hunt?$0#$b#What is the prize...? Eggs?! *guggle*$h"
+            }   
+        },
+        //SecondChild Egg Festival Dialogue
+        {
+            "LogName": "SecondChild Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "That's the egg I colored!$0#$b#Pretty right?$h"
+            }
+        }
+
+	]
+}

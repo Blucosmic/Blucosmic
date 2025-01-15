@@ -1,0 +1,42 @@
+{
+    //Gathering
+    //Position
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 112 49 right/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 115 50 down",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 76 44 up/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 77 44 up",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 112 49 right/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 115 50 down",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 76 44 up/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 77 44 up",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Fields","set-up",5],
+            "Value": "/animate {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} false true 100 20 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 20/animate {{Candidus42.LittleNPCs/SecondLittleNPC:Name}} true true 100 20 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 20"
+          }
+        ]
+      }
+  
+    ]
+  }

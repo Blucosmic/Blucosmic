@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        //Load
+        {
+            "LogName": "FirstChild School",
+            "Action": "Load",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+            "FromFile": "Assets/dialogue/School1.json"
+        },
+        {
+            "LogName": "SecondChild School",
+            "Action": "Load",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+            "FromFile": "Assets/dialogue/School2.json"
+        },
+        
+
+        //Edit Strings schedules
+        //FirstChild
+        {
+            "LogName": "FirstChild Strings schedules",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+            "Entries": {
+                "rain.000": "%Your child is reading a book.",
+                "rain.001": "Can you guess what I'm drawing?$0#$b#...I'm drawing our family!$h"
+            }
+        },
+        {
+            "LogName": "FirstChild Strings schedules alex married",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+            "Entries": {
+                "spring.000": "Daddy told me the dog's name is Dusty.$0 #$b#I've only ever seen Dusty once.$s"
+            },
+            "When": {
+                "Relationship:Alex": "Married"
+            }
+        },
+        //Edit Strings schedules
+        //SecondChild
+        {
+            "LogName": "SecondChild Strings schedules",
+            "Action": "EditData",
+            "Target": "Strings/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+            "Entries": {
+                "spring.000": "Why does Dusty don't come out?$0#$b#I want to meet Dusty again.$s",
+                "fall.000": "This place is only for children, you can't enter.$u",
+                "winter.000": "Have monster in down, Vincent said.$u#$b#...But why would you want to go down and see it?$s",
+                "rain.000": "%Your child is reading a book.",
+                "rain.001": "There are a lot of colors here!$h#$b#Daddy, What color do you like best?$0^Mommy, What color do you like best?$0"
+            }
+        }
+    ]
+}

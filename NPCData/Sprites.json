@@ -1,0 +1,668 @@
+{
+	"Changes": [
+
+		//Having a Spouse
+		//FirstChild Characters
+		{
+			"LogName": "FirstChild Characters Normally Auto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Apron/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "True",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally Auto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "False",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally NoAuto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Apron/{{FirstChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"FirstChildApron": "True",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally NoAuto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/{{FirstChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"FirstChildApron": "False",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind"
+			}
+		},
+		//od
+		{
+			"LogName": "FirstChild Characters Normally Auto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Apron/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "True",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally Auto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "False",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally NoAuto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Apron/{{FirstChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"FirstChildApron": "True",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally NoAuto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/{{FirstChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"FirstChildApron": "False",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain"
+			}
+		},
+
+		//SecondChild Characters
+		{
+			"LogName": "SecondChild Characters Auto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Apron/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "True",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters Auto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "False",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters NoAuto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Apron/{{SecondChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"SecondChildApron": "True",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters NoAuto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/{{SecondChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"SecondChildApron": "False",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind"
+			}
+		},
+		//od
+		{
+			"LogName": "SecondChild Characters Auto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Apron/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "True",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters Auto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/{{spouse}}.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "False",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters NoAuto Apron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Apron/{{SecondChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"SecondChildApron": "True",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters NoAuto NoApron",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/{{SecondChildParent}}.png",
+			"When": {
+				"Auto": "False",
+				"SecondChildApron": "False",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain"
+			}
+		},
+
+		//Not Having a Spouse
+		//FirstChild Characters
+		{
+			"LogName": "FirstChild Characters Normally Auto Apron nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Apron/Default.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "True",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally Auto NoApron nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Default.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "False",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		//od
+		{
+			"LogName": "FirstChild Characters Normally Auto Apron nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Apron/Default.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "True",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		{
+			"LogName": "FirstChild Characters Normally Auto NoApron nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Default.png",
+			"When": {
+				"Auto": "True",
+				"FirstChildApron": "False",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+
+		//SecondChild Characters
+		{
+			"LogName": "SecondChild Characters Auto Apron nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Apron/Default.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "True",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters Auto NoApron nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Default.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "False",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Sun, Snow, Wind",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		//od
+		{
+			"LogName": "SecondChild Characters Auto Apron nsp od",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Apron/Default.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "True",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		{
+			"LogName": "SecondChild Characters Auto NoApron nsp od",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Default.png",
+			"When": {
+				"Auto": "True",
+				"SecondChildApron": "False",
+				"IsOutdoors": "false",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+
+		//Seasonol Outfits
+
+		//Summer
+		//MaleCharacters
+		{
+			"Logname": "FirstChild Male Characters Summer Hat Auto",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Summer/{{spouse}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "True",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "male",
+				"Season": "Summer",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "FirstChild Male Characters Summer Hat NoAuto",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Summer/{{FirstChildParent}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "False",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "male",
+				"Season": "Summer",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Male Characters Summer Hat Auto",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Summer/{{spouse}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "True",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "male",
+				"Season": "Summer",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Male Characters Summer Hat NoAuto",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Summer/{{SecondChildParent}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "False",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "male",
+				"Season": "Summer",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+
+		//FemaleSummerCharacter
+		{
+			"Logname": "FirstChild Female Characters Summer Hat",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Costumes/SummerHats.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "female",
+				"Season": "Summer",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Female Characters Summer Hat",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Costumes/SummerHats.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "female",
+				"Season": "Summer",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		
+
+		//FallCharacters
+		{
+			"Logname": "FirstChild Characters Fall",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Fall/{{MaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "male",
+				"Season": "Fall",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "FirstChild Characters Fall",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Fall/{{FemaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "female",
+				"Season": "Fall",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Characters Fall",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Fall/{{MaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "male",
+				"Season": "Fall",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Characters Fall",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Fall/{{FemaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "female",
+				"Season": "Fall",
+				"SeasonalSet": "True"
+			}
+		},
+		
+		
+//Winter
+		//Male
+		//Characters
+		{
+			"Logname": "FirstChild Male Characters Winter",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Winter/{{MaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "male",
+				"Season": "Winter",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "FirstChild Male Characters Winter Hat",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Winter/Hats/{{MaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "male",
+				"Season": "Winter",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Male Characters Winter",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Winter/{{MaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "male",
+				"Season": "Winter",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Male Characters Winter Hat",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Male/Characters/Winter/Hats/{{MaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "male",
+				"Season": "Winter",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		
+		//FemaleWinter
+		//Characters
+		{
+			"Logname": "FirstChild Female Characters Winter",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Winter/{{FemaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "female",
+				"Season": "Winter",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "FirstChild Female Characters Winter Hat",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Winter/Hats/{{FemaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "female",
+				"Season": "Winter",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Female Characters Winter",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Winter/{{FemaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "female",
+				"Season": "Winter",
+				"SeasonalSet": "True"
+			}
+		},
+		{
+			"Logname": "SecondChild Female Characters Winter Hat",
+			"Action": "EditImage",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/Female/Characters/Winter/Hats/{{FemaleCoatColor}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "female",
+				"Season": "Winter",
+				"IsOutdoors": "true",
+				"SeasonalSet": "True"
+			}
+		},
+
+		//Rain
+		//Characters
+		{
+			"Logname": "FirstChild Characters Raincoat Auto",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Costumes/Raincoats/{{spouse}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "True",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"IsOutdoors": "true",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"Logname": "FirstChild Characters Raincoat Auto nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Costumes/Raincoats/Default.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "True",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"IsOutdoors": "true",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		{
+			"Logname": "FirstChild Characters Raincoat NoAuto",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}/Characters/Costumes/Raincoats/{{FirstChildParent}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "False",
+				"Candidus42.LittleNPCs/FirstLittleNPC: Gender": "{{Candidus42.LittleNPCs/FirstLittleNPC: Gender}}",
+				"IsOutdoors": "true",
+				"Weather": "Rain, Storm, GreenRain"
+			}
+		},
+		{
+			"Logname": "SecondChild Characters Raincoat Auto",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Costumes/Raincoats/{{spouse}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "True",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"IsOutdoors": "true",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "true"
+			}
+		},
+		{
+			"Logname": "SecondChild Characters Raincoat Auto nsp",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Costumes/Raincoats/Default.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "True",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"IsOutdoors": "true",
+				"Weather": "Rain, Storm, GreenRain",
+				"HasValue:{{spouse}}": "false"
+			}
+		},
+		{
+			"Logname": "SecondChild Characters Raincoat NoAuto",
+			"Action": "Load",
+			"Target": "Characters/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
+			"FromFile": "Assets/{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}/Characters/Costumes/Raincoats/{{SecondChildParent}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"Auto": "False",
+				"Candidus42.LittleNPCs/SecondLittleNPC: Gender": "{{Candidus42.LittleNPCs/SecondLittleNPC: Gender}}",
+				"IsOutdoors": "true",
+				"Weather": "Rain, Storm, GreenRain"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,25 @@
+{
+    //Stardew Valley Fair
+    //Position
+    "Changes": [
+        {
+            "LogName": "Child's Stardew Valley Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 24 79 0/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 25 79 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 34 80 0/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 33 80 0",
+                    "Delimiter": "/"
+                }
+            ]
+        }
+    ]
+}

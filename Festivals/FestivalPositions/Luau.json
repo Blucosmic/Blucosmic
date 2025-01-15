@@ -1,0 +1,44 @@
+{
+	 //Luau
+     //Position
+     "Changes": [
+        {
+          "LogName": "Child's Luau Festival",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "TextOperations": [
+            {
+              "Operation": "Append",
+              "Target": ["Entries", "Set-Up_additionalCharacters"],
+              "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 31 10 up/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 35 11 down",
+              "Delimiter": "/"
+            },
+            {
+              "Operation": "Append",
+              "Target": ["Entries", "Main-Event_additionalCharacters"],
+              "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 33 3 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 34 3 down",
+              "Delimiter": "/"
+            },
+            {
+              "Operation": "Append",
+              "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+              "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 26 9 up/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 28 9 up",
+              "Delimiter": "/"
+            },
+            {
+              "Operation": "Append",
+              "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+              "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 33 3 down/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 34 3 down",
+              "Delimiter": "/"
+            },
+            {
+              "Operation": "Append",
+              "Target": ["Fields", "set-up",5],
+              "Value": "/advancedMove {{Candidus42.LittleNPCs/FirstLittleNPC:Name}} true 4 4500 0 4 1 0 0 1 2 6000 0 -1 -1 0 0 -4",
+              "Delimiter": "/"
+            }
+          ]
+        }
+
+	]
+}

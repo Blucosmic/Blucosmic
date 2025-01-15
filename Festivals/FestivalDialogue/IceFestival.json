@@ -1,0 +1,27 @@
+{
+//Festival of Ice
+//Dialogue
+
+	"Changes": [
+		
+        //FirstChild Festival of Ice Dialogue
+        {
+            "LogName": "FirstChild Festival of Ice Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "If we get into these igloos, we'll get warmer.$0#$b#...Are you ready for the fishing competition yet?$h"
+            }
+        },
+        //SecondChild Festival of Ice Dialogue
+        {
+            "LogName": "SecondChild Festival of Ice Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "Look at that pear with glasses!$0#$b#I really want to know who made it!$h"
+            }
+        }
+
+	]
+}

@@ -1,0 +1,28 @@
+{
+//Luau Festival
+//Dialogue
+
+	"Changes": [
+		
+       
+    	  //FirstChild Luau Festival Dialogue
+        {
+            "LogName": "FirstChild Luau Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}": "How will the soup taste?$0#$b#I hope it's not spicy...$s"
+            }
+        },
+        //SecondChild Luau Festival Dialogue
+        {
+            "LogName": "SecondChild Luau Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}": "Look at this huge soup pot!$h#$b#If you have to eat it alone, you must be full... *guggle*$h"
+            }
+        }
+
+	]
+}

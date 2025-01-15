@@ -1,0 +1,25 @@
+{
+    //Moonlight Jellies
+    //Position
+    "Changes": [
+        {
+            "LogName": "Child's Dance of the Moonlight Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 26 36 2/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 25 36 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 24 33 3/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}} 24 34 3",
+                    "Delimiter": "/"
+                }
+            ]
+        }
+    ]
+}
