@@ -1,0 +1,17 @@
+{
+	"Name": "Kelly's Flower Dancing",
+	"Author": "kelly2892",
+	"Version": "1.4.0",
+	"MinimumApiVersion": "4.1.2",
+	"UniqueID": "kelly2892.flower.dancing.harmony",
+	"Description": "Make the farmer actually dance at the flower festival",
+	"EntryDll": "FlowerDancing.dll",
+	"Dependencies": 
+	[
+		{
+			"UniqueID": "kelly2892.flower.dance.attire",
+			"IsRequired": true
+		}
+	],
+	"UpdateKeys": [ "Nexus:8107" ]
+}
