@@ -1,0 +1,7 @@
+{
+  "ModEnabled": true,
+  "MaxTrees": 20,
+  "TreeGrowthStage": 1,
+  "TreeSpawnChance": 2,
+  "ObjectSpawnChance": 2
+}

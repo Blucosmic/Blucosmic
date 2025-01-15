@@ -1,0 +1,13 @@
+﻿{
+	"Name": "Dynamic Map Tiles",
+	"Author": "aedenthorn",
+	"Version": "0.9.7-unofficial.1-mouahrara",
+	"Description": "Makes map tiles dynamic - change tile, tile sheet, and properties on-the-fly.",
+	"UniqueID": "aedenthorn.DynamicMapTiles",
+	"EntryDll": "DynamicMapTiles.dll",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": [
+		"Nexus:14566",
+		"UpdateManifest:https://raw.githubusercontent.com/mouahrara/aedenthorn/master/update-manifest.json@DynamicMapTiles"
+	]
+}
