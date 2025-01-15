@@ -1,0 +1,66 @@
+{
+  "SkipMinigame": false,
+  "SimpleMinigame": false,
+  "SkipTrainingRod": false,
+  "AllowFail": true,
+  "FailPoint": 0.35,
+  "MinigameBarIncrement": 0.04,
+  "ToolUpgradeItemsId": {
+    "0": "334",
+    "1": "335",
+    "2": "336",
+    "3": "337"
+  },
+  "RodUpgradeItemsId": {
+    "0": "388",
+    "1": "338",
+    "2": "337",
+    "3": "337"
+  },
+  "ScytheUpgradeItemsId": {
+    "0": "336",
+    "1": "337"
+  },
+  "ToolUpgradeAmounts": {
+    "0": 5,
+    "1": 5,
+    "2": 5,
+    "3": 5
+  },
+  "RodUpgradeAmounts": {
+    "0": 100,
+    "1": 10,
+    "2": 5,
+    "3": 40
+  },
+  "ScytheUpgradeAmounts": {
+    "0": 25,
+    "1": 40
+  },
+  "ToolUpgradePrefixes": {
+    "0": "Copper",
+    "1": "Steel",
+    "2": "Gold",
+    "3": "Iridium"
+  },
+  "RodUpgradePrefixes": {
+    "0": "Training",
+    "1": "Fiberglass",
+    "2": "Iridium",
+    "3": "AdvancedIridium"
+  },
+  "ScytheUpgradePrefixes": {
+    "0": "Golden ",
+    "1": "Iridium "
+  },
+  "ToolMinigameRepeat": {
+    "0": 2,
+    "1": 3,
+    "2": 4,
+    "3": 5
+  },
+  "ScytheMinigameRepeat": {
+    "0": 3,
+    "1": 5
+  }
+}
