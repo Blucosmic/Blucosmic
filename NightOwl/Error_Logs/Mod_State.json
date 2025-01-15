@@ -1,0 +1,24 @@
+{
+  "Config": {
+    "MorningLightTransition": true,
+    "StayUp": true,
+    "SkipCollapseMail": true,
+    "KeepPositionAfterCollapse": true,
+    "KeepMoneyAfterCollapse": true,
+    "KeepHealthAfterCollapse": true,
+    "KeepStaminaAfterCollapse": true,
+    "UseInternalNightFishAssetEditor": true
+  },
+  "IsUpLate": true,
+  "ShouldResetPlayerAfterCollapseNow": true,
+  "JustStartedNewDay": false,
+  "JustCollapsed": true,
+  "PreCollapseMap": "FarmHouse",
+  "PreCollapseTile": {
+    "X": 7,
+    "Y": 24
+  },
+  "PreCollapseMoney": 6000400,
+  "PreCollapseStamina": 474.0,
+  "PreCollapseHealth": 165
+}
