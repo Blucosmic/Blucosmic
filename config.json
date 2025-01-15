@@ -1,5 +1,11 @@
 {
-  "Bars_Theme": 1,
-  "Show_Full_Life": true,
-  "Range_Verification": false
+  "ModEnabled": true,
+  "StrikeAnywhere": false,
+  "MinimumMeteorites": 1,
+  "MaximumMeteorites": 5,
+  "MeteoritesDestroyedPerObject": 1,
+  "DefenceSound": "debuffSpell",
+  "DestructionSound": "explosion",
+  "ImpactSound": "aedenthorn.MeteorDefence_meteoriteImpact",
+  "SkillsRequired": "Mining 6"
 }
