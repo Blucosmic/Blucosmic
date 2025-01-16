@@ -1,0 +1,32 @@
+﻿{
+  "Confirm.Reclaim": "确定要从垃圾桶中赎回 {{itemName}} 吗？",
+  "Confirm.Remove": "确定要将 {{itemName}} 从自动丢弃列表中移出吗？",
+
+  "Log.No.Item": "尝试将物品添加到自动丢弃列表时未选择任何物品",
+
+  "Notification.Add.Fail": "无法将 {{itemName}} 添加到自动丢弃列表",
+  "Notification.Add.Repeat": "{{itemName}} 已在自动丢弃列表中",
+  "Notification.Add.Success": "已将 {{itemName}} 添加到自动丢弃列表",
+  "Notification.Reclaim.Fail": "无法赎回 {{itemName}}。",
+  "Notification.Reclaim.NotEnoughMoney": "资金不足，无法赎回 {{itemName}}。费用：{{cost}}金",
+  "Notification.State": "智能垃圾桶 {{state}}",
+  "Notification.Trashed": "已自动将 {{itemName}} 丢弃到垃圾桶",
+
+  "Option.AddTrashKeybind.Name": "向自动丢弃列表添加物品快捷键",
+  "Option.AddTrashKeybind.Tooltip": "将当前选中的物品添加到自动丢弃列表的快捷键",
+  "Option.ReclaimableItemCount.Name": "最大可赎回物品数量",
+  "Option.ReclaimableItemCount.Tooltip": "赎回物品列表中要保留的历史物品数量",
+  "Option.OpenTrashMenuKeybind.Name": "打开智能垃圾桶菜单快捷键",
+  "Option.OpenTrashMenuKeybind.Tooltip": "用于打开智能垃圾桶菜单的快捷键",
+  "Option.ToggleTrasherKeybind.Name": "切换智能垃圾桶快捷键",
+  "Option.ToggleTrasherKeybind.Tooltip": "用于打开或关闭智能垃圾桶的快捷键",
+
+  "State.Activated": "已启用",
+  "State.Deactivated": "已禁用",
+
+  "UI.ReclaimList.NoItems": "赎回物品列表中没有物品",
+  "UI.Tabs.TrashList": "自动丢弃列表",
+  "UI.Tabs.ReclaimList": "赎回物品列表",
+  "UI.Title": "智能垃圾桶菜单",
+  "UI.TrashList.NoItems": "自动丢弃列表中没有物品"
+}

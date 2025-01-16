@@ -1,0 +1,18 @@
+{
+  "IsPanelVisible": false,
+  "ToggleTodoListKeybind": "RightStick",
+  "PanelPosition": "10, 80",
+  "VisibleItemCount": 6,
+  "CheckBirthdays": true,
+  "CheckFestivals": true,
+  "CheckHarvestableCrops": true,
+  "CheckWaterableCrops": true,
+  "CheckReadyMachines": true,
+  "CheckToolPickup": true,
+  "CheckDailyQuestBulletinBoard": true,
+  "CheckSpecialOrdersBoard": true,
+  "CheckTravelingMerchant": true,
+  "CheckQueenOfSauce": true,
+  "CheckGiftingNPCs": true,
+  "GiftingNPCsString": ""
+}

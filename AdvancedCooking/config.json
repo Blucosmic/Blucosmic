@@ -1,0 +1,15 @@
+{
+  "ModEnabled": true,
+  "AllowUnknownRecipes": true,
+  "LearnUnknownRecipes": true,
+  "CookAllModKey": "LeftShift",
+  "HoldCookedItem": true,
+  "ConsumeExtraIngredientsOnSucceed": false,
+  "ConsumeIngredientsOnFail": false,
+  "GiveTrashOnFail": true,
+  "ShowProductInfo": true,
+  "ShowCookTooltip": true,
+  "ShowProductsInTooltip": true,
+  "MaxItemsInTooltip": 6,
+  "YOffset": 532
+}

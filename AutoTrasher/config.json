@@ -1,0 +1,16 @@
+{
+  "ToggleTrasherKeybind": "B",
+  "OpenTrashMenuKeybind": "N",
+  "AddTrashKeybind": "LeftAlt + X, RightAlt + X",
+  "ReclaimableItemCount": 10,
+  "AllowAllItems": false,
+  "TrashList": [
+    "(O)168",
+    "(O)169",
+    "(O)170",
+    "(O)171",
+    "(O)172",
+    "(O)747",
+    "(O)748"
+  ]
+}
