@@ -1,0 +1,29 @@
+{
+  "WeatherForYesterday": "Wind",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Lumisteria.MtVapius_ForestJunimoClearing",
+      "Name": null,
+      "Tile": "33, 29",
+      "Type": "ResourceClump",
+      "ID": "Lumisteria.MtVapius_MediumPoppy",
+      "DaysUntilExpire": 22,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Lumisteria.MtVapius_ForestCaveMarsh",
+      "Name": null,
+      "Tile": "56, 65",
+      "Type": "ResourceClump",
+      "ID": "Lumisteria.MtVapius_GiantConstellatedWatermelon",
+      "DaysUntilExpire": 25,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

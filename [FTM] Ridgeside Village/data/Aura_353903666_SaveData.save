@@ -1,0 +1,59 @@
+{
+  "WeatherForYesterday": "Wind",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Ridgeside Clementine",
+      "Tile": "5, 6",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridgeside_Clementine",
+      "DaysUntilExpire": 10,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Mountain Plumcot",
+      "Tile": "7, 7",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Plumcot",
+      "DaysUntilExpire": 11,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Autumn Drop Berry",
+      "Tile": "14, 8",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Autumn_Drop_Berry",
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Paradise Rangpur",
+      "Tile": "7, 18",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Paradise_Rangpur",
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    }
+  ]
+}
