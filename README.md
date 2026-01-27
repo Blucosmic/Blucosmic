@@ -2,7 +2,7 @@
 - 👀 I’m interested in Space
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on Coding
-- 📫 How to reach me literal.panda@yahoo.com
+- 📫 How to reach me hubblemystery@gmail.com
 - 😄 Pronouns: Bun/Buns
 - ⚡ Fun fact: All of my interests overlap with aero engineering.
 
