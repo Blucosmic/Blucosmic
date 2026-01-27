@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on Coding
 - 📫 How to reach me literal.panda@yahoo.com
-- 😄 Pronouns: Panda/Pandas
+- 😄 Pronouns: Bun/Buns
 - ⚡ Fun fact: All of my interests overlap with aero engineering.
 
 <!---
